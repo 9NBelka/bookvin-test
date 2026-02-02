@@ -38,12 +38,12 @@ const Header = ({ isScrolled, scrollToSection, onFooterAndHeaderTextLinksMain, c
         <div className={styles.logoBlock}>
           {/* <div className={styles.logoContainer}>
             <img src={mechLogo} alt='Logo' className={styles.iconLogo} />
-          </div>
-          <div className={styles.logo} onClick={() => handleScroll('hero')}>
-            MECH.CAPITAL
           </div> */}
           <div className={styles.logoContainer}>
             <img src={mechLogo} alt='Logo' className={styles.iconLogo} />
+          </div>{' '}
+          <div className={styles.logo} onClick={() => handleScroll('hero')}>
+            екосистема
           </div>
         </div>
 

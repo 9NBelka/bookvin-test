@@ -16,26 +16,26 @@ import MobileAppAutoMechanics from '../../components/MechOrbitUA/MobileAppAutoMe
 
 export default function MechOrbitUA({ isScrolled, scrollToSection }) {
   const onFooterAndHeaderTextLinksMain = [
-    {
-      title: 'Продукт',
-      linkToPage: 'product',
-    },
-    {
-      title: 'Рішення',
-      linkToPage: 'solution',
-    },
-    {
-      title: 'Калькулятор',
-      linkToPage: 'calculator',
-    },
-    {
-      title: 'Інтеграції',
-      linkToPage: 'integrations',
-    },
-    {
-      title: 'Тарифи',
-      linkToPage: 'price',
-    },
+    // {
+    //   title: 'Продукт',
+    //   linkToPage: 'product',
+    // },
+    // {
+    //   title: 'Рішення',
+    //   linkToPage: 'solution',
+    // },
+    // {
+    //   title: 'Калькулятор',
+    //   linkToPage: 'calculator',
+    // },
+    // {
+    //   title: 'Інтеграції',
+    //   linkToPage: 'integrations',
+    // },
+    // {
+    //   title: 'Тарифи',
+    //   linkToPage: 'price',
+    // },
     {
       title: 'Контакти',
       linkToPage: 'contacts',
@@ -52,17 +52,17 @@ export default function MechOrbitUA({ isScrolled, scrollToSection }) {
         currentLang='ua'
       />
       <main>
-        <Hero scrollToSection={scrollToSection} />
+        {/* <Hero scrollToSection={scrollToSection} />
         <AboutUsScreen scrollToSection={scrollToSection} />
-        <AboutUsScreenBookvin scrollToSection={scrollToSection} />
+        <AboutUsScreenBookvin scrollToSection={scrollToSection} /> */}
         <MobileAppAutoMechanics />
-        {/* <AboutUsScreenVinApp scrollToSection={scrollToSection} /> */}
+        {/* <AboutUsScreenVinApp scrollToSection={scrollToSection} />
         <WhyUsScreen />
         <WhatDoWeHaveScreen />
         <AIMonitoringScreen scrollToSection={scrollToSection} />
         <ForWhoScreen />
         <TariffsScreen />
-        <FAQScreen />
+        <FAQScreen /> */}
         <ContactsScreen />
       </main>
       <Footer

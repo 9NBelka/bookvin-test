@@ -44,6 +44,9 @@ const Header = ({ isScrolled, scrollToSection, onFooterAndHeaderTextLinksMain, c
           </div> */}
           <div className={styles.logoContainer}>
             <img src={mechLogo} alt='Logo' className={styles.iconLogo} />
+          </div>{' '}
+          <div className={styles.logo} onClick={() => handleScroll('hero')}>
+            экосистема
           </div>
         </div>
 

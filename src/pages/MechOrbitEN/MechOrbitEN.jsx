@@ -12,29 +12,30 @@ import ContactsScreen from '../../components/MechOrbitEN/ContactsScreen/Contacts
 import ScrollToHash from '../../components/ScrollToHash/ScrollToHash';
 import AboutUsScreenBookvin from '../../components/MechOrbitEN/AboutUsScreenBookvin/AboutUsScreenBookvin';
 import AboutUsScreenVinApp from '../../components/MechOrbitEN/AboutUsScreenVinApp/AboutUsScreenVinApp';
+import MobileAppAutoMechanics from '../../components/MechOrbitEN/MobileAppAutoMechanics/MobileAppAutoMechanics';
 
 export default function MechOrbitEN({ isScrolled, scrollToSection }) {
   const onFooterAndHeaderTextLinksMain = [
-    {
-      title: 'Product',
-      linkToPage: 'product',
-    },
-    {
-      title: 'Solutions',
-      linkToPage: 'solution',
-    },
-    {
-      title: 'Calculator',
-      linkToPage: 'calculator',
-    },
-    {
-      title: 'Integrations',
-      linkToPage: 'integrations',
-    },
-    {
-      title: 'Pricing',
-      linkToPage: 'price',
-    },
+    // {
+    //   title: 'Product',
+    //   linkToPage: 'product',
+    // },
+    // {
+    //   title: 'Solutions',
+    //   linkToPage: 'solution',
+    // },
+    // {
+    //   title: 'Calculator',
+    //   linkToPage: 'calculator',
+    // },
+    // {
+    //   title: 'Integrations',
+    //   linkToPage: 'integrations',
+    // },
+    // {
+    //   title: 'Pricing',
+    //   linkToPage: 'price',
+    // },
     {
       title: 'Contacts',
       linkToPage: 'contacts',
@@ -51,16 +52,17 @@ export default function MechOrbitEN({ isScrolled, scrollToSection }) {
         currentLang='en'
       />
       <main>
-        <Hero scrollToSection={scrollToSection} />
+        {/* <Hero scrollToSection={scrollToSection} />
         <AboutUsScreen scrollToSection={scrollToSection} />
-        <AboutUsScreenBookvin scrollToSection={scrollToSection} />
-        <AboutUsScreenVinApp scrollToSection={scrollToSection} />
+        <AboutUsScreenBookvin scrollToSection={scrollToSection} /> */}
+        <MobileAppAutoMechanics />
+        {/* <AboutUsScreenVinApp scrollToSection={scrollToSection} />
         <WhyUsScreen />
         <WhatDoWeHaveScreen />
         <AIMonitoringScreen scrollToSection={scrollToSection} />
         <ForWhoScreen />
         <TariffsScreen />
-        <FAQScreen />
+        <FAQScreen /> */}
         <ContactsScreen />
       </main>
       <Footer

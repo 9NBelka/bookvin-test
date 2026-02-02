@@ -83,7 +83,7 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  // gap: 0.25vw;
+  gap: 0.5vw;
 
   & .logoContainer {
     display: flex;
@@ -106,12 +106,13 @@
   & .logo {
     display: flex;
     align-items: center;
-    font-size: 1vw;
+    font-size: 0.95vw;
     // font-size: 1.2rem;
     color: var(--color-white);
     font-family: var(--font-Inter);
     font-weight: var(--font-weight-bold);
     line-height: var(--font-lineh-small2);
+    text-transform: uppercase;
     letter-spacing: -0.05vw;
     gap: 0.4vw;
     cursor: pointer;
